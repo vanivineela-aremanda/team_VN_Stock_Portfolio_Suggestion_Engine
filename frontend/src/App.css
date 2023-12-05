@@ -1,0 +1,87 @@
+body {
+    background: #171212 !important; /* Dark background color */
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Light text color */
+}
+
+.box {
+    padding: 2%;
+    width: 60%;
+    background: #ffffff; /* White background */
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Header styling */
+.box h3 {
+    color: #333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Slightly larger and more prominent box shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Footer styling */
+footer {
+    background: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Card styling */
+.stockCard {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border: 1px solid #e0e0e0; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Loading spinner styling */
+.ant-spin {
+    color: #3e18ff; /* Ant Design primary color for the spinner */
+}
+
+/* Spin tip styling */
+.ant-spin-text {
+    color: #595959; /* Light text color */
+}
+
+/* Divider styling */
+.ant-divider {
+    background-color: #e8e8e8bf; /* Light gray divider */
+}
+
+/* Typography styling */
+.ant-typography {
+    color: #333; /* Dark text color */
+}
+
+/* Amount and Investing Strategies styling */
+.text strong {
+    color: #333; /* Dark text color */
+}
+
+.text {
+    color: #494949; /* Lighter text color */
+}
+
+/* Link styling */
+a {
+    color: #8124fb; /* Ant Design primary color for links */
+}
+
+a:hover {
+    color: #259afb; /* Darker color on hover */
+}
